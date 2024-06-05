@@ -99,10 +99,7 @@ public class Excel3 {
 				js.executeScript("arguments[0].scrollIntoView(false)",up);
 				Thread.sleep(3000);
 				driver.findElement(By.xpath("//span[text()='Continue']")).click();
-				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-				
-//			
-	
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	
 	}
 	
 }
